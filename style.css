@@ -1,0 +1,119 @@
+body{
+    margin: 0px;
+}
+
+/* header */
+
+#body-header{
+    height:65vh;
+    background-image: url("images/2068755.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.horizontal-list{
+    list-style-type: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.martop{
+    padding-top: 2vh;
+}
+
+.horizontal-list li{
+    
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+}
+
+.horizontal-list li a{
+    
+    font-size: 1.3rem; 
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+    transition: color 0.5s, border-bottom 4s;
+}
+
+.horizontal-list li a:hover{
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+
+.text-center{
+    text-align: center;
+}
+
+#name-social-container{
+    margin-top:20vh;
+}
+
+#my-name{
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight:700;
+    font-family:sans-serif;
+    margin-bottom: 0.5rem;
+}
+
+.social-icons{
+    height:25px;
+    width: 25px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.social-icons:hover{
+    height:25px;
+    width: 25px;
+    padding: 2px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0,0.4);
+
+}
+
+#gmail{
+    background-image: url("images/email.svg");
+}
+#linkedIn{   
+    background-image: url("images/linkedin.svg");
+}
+#leetcode{   
+    background-image: url("images/leetcode.svg");
+}
+#github{   
+    background-image: url("images/github.svg");
+}
+#gfg{  
+    background-image: url("images/gfg.svg");
+}
+
+/* about section  */
+
+#about{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+#img-div{
+    height:12rem;
+    margin: auto;
+    margin-top: -21vh;
+}
+
+#my-img{
+    width:300px;
+    height:300px;
+    border-radius: 50%;
+}
+
+.content-div{
+    margin-top: 21vh;
+}
