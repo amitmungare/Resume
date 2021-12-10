@@ -79,10 +79,10 @@ body{
 
 }
 
-#gmail{
+/* #gmail{
     background-image: url("images/email.svg");
-}
-#linkedIn{   
+} */
+/* #linkedIn{   
     background-image: url("images/linkedin.svg");
 }
 #leetcode{   
@@ -93,7 +93,7 @@ body{
 }
 #gfg{  
     background-image: url("images/gfg.svg");
-}
+} */
 
 /* about section  */
 
