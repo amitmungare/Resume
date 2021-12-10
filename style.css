@@ -57,7 +57,7 @@ body{
     letter-spacing: 0.1rem;
     color: white;
     font-weight:700;
-    font-family:sans-serif;
+    font-family:cursive;
     margin-bottom: 0.5rem;
 }
 
@@ -118,4 +118,145 @@ body{
     margin-top: 21vh;
 
     
+}
+
+
+/* sections */
+
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section:nth-child(2n){
+    background-color:white;
+}
+
+section:nth-child(2n+1){
+    background-color:mistyrose;
+}
+
+
+/* skills section  */
+
+
+.section-header{
+    width:auto;
+    padding:20px 10px 10px;
+    font-weight: 400;
+    font-family:cursive;
+}
+
+
+
+.section-header span{
+    font-size:30px;
+    color:black;
+    display:inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+}
+
+#skills{
+    padding-bottom: 100px;
+}
+
+#skills header{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.skills-display{
+    width:70%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+.skill-progress{
+    margin: 10px 5px 10px 5px;
+    background-color:seashell;
+    padding: 0px 70px 0px 70px;
+    border-radius: 2.8rem;
+    border: 2px solid plum;
+}
+
+.skill-progress p{
+    font-size:18px;
+    font-family:sans-serif;
+}
+
+
+
+
+
+/* experience */
+
+.exp-img{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+
+/* contact */
+
+#contact{
+    display:flex;
+    font-family: sans-serif;
+    padding-bottom: 60px;
+    background-image: linear-gradient( rgb(199, 124, 243),rgb(169, 89, 243));
+    color: oldlace;
+
+}
+
+#contact-details{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content:center;
+}
+
+#contact-details button{
+    width: 200px;
+    height:50px;
+}
+
+.contact-input{
+    
+    width:600px;
+    padding: 20px;
+    margin: 20px;
+    
+}
+
+#contact-data{
+    display:flex;
+    flex-direction: column;
+    padding-left: 100px;
+}
+
+#contact-data p{
+    width: 400px;
+    height: 50px;
+    margin-top: -1px;
+}
+
+.details-div{
+    display:flex;
+    flex-direction: row;
+    
+}
+
+.details-div img{
+    width: 20px;
+    height:20px;
+    padding-right: 5px;
 }
