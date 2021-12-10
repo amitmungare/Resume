@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    font-family: sans-serif;
 }
 
 /* header */
@@ -195,7 +196,7 @@ section:nth-child(2n+1){
 
 
 
-/* experience */
+/* hold */
 
 .exp-img{
     width: 300px;
@@ -203,6 +204,100 @@ section:nth-child(2n+1){
 }
 
 
+/* experience */
+
+.timeline{
+    position: relative;
+    width: 75%;
+}
+
+.timeline-box{
+    position: relative;
+    width:40%;
+    left: 5%;
+    min-height: 150px;
+}
+
+.timeline-box:nth-child(2n){
+    left: 53%;
+}
+
+.pos::before{
+    content:'';
+    display: inline-block;
+    width:30px;
+    height: 30px;
+    margin-right: 10px;
+    background-image: url("/images/company.png");
+}
+
+.pos{
+    margin-top:-10px;
+    margin-left: 30px;
+}
+.company-name{
+    margin-top:-10px;
+    margin-left: 30px;
+}
+.time{
+    margin-top:-15px;
+    margin-left: 30px;
+}
+
+.timeline-box ul li{
+    line-height: 20px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.timeline-divider{
+    position: absolute;
+    margin-top: -5%;
+    height:94%;
+    width:0;
+    border:3px dashed black;
+    top:10%;
+    left:50%;
+
+}
+
+
+.timeline-traveller{
+    position:sticky;
+    margin-top: -29px;
+    margin-left: -3px;
+    top:20%;
+    transform: rotate(90deg);
+}
+
+.timeline-box:nth-child(2n+1)::after{
+
+    content:'';
+    
+    position:absolute;
+    margin-top: -13.5%;
+    top:30%;
+    right:-14%;
+    border-radius: 50%;
+    width:0.5rem;
+    height:0.5rem;
+    background-color:rgb(224, 51, 94);
+    z-index: 1;
+}
+
+.timeline-box:nth-child(2n)::after{
+
+    content:'';
+    position:absolute;
+    margin-top: -8%;
+    top:30%;
+    left:-7.7%;
+    border-radius: 50%;
+    width:0.5rem;
+    height:0.5rem;
+    background-color:rgb(224, 51, 94);
+    z-index: 2;
+}
 
 
 
